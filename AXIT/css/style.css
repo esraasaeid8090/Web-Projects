@@ -1,0 +1,513 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family:sans-serif;
+}
+/* global classes */
+.container{
+    width: 80%;
+    margin: auto;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+.text-orange{
+    color: orange;
+}
+.d_inline_block{
+    display: inline-block;
+}
+/* start heading */
+header{
+    background-color: black;
+    color: antiquewhite;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+header h1 , header ul{
+    display: inline-block;
+}
+header h1{
+    margin-right: 24%;
+}
+.lighter{
+    font-weight: lighter;
+}
+
+header ul li{
+    display: inline;
+    margin:0 15px;
+}
+
+header ul li a{
+    color: white;
+    text-decoration: none;
+    font-size: 11px;
+    font-weight: lighter;
+
+}
+#hero{
+    background-size: 100% 100%;
+    background-color: white;
+    background-image: url(../images/image.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.overlay{
+    background-size: 100% 100%;
+    background-color: rgb(0, 0, 0, 0, 418);
+    padding: 50px 10%;
+}
+.heroleft{
+    width: 40%;
+}
+.heroright{
+    width: 40%;
+    color: white;
+}
+.heroleft h1{
+    font-size: 60px;
+    color: white;
+    margin-bottom: 15px;
+}
+.heroleft div p{
+    font-size: 11px;
+    color: white;
+}
+.heroleft p{
+    color: white;
+}
+.heroleft button{
+    background-color: transparent;
+    border: 1px solid wheat;
+    color: aliceblue;
+    padding: 5px 25px;
+    margin-top: 10px;
+}
+.heroleft hr{
+    width: 25%;
+    margin: 15px 0;
+    color: white;
+}
+.heroright form{
+    background-color: azure;
+    text-align: center;
+}
+.heroright form h3{
+    background-color: azure;
+    padding: 10px 0;
+}
+.heroright h3{
+    color: black;
+}
+.heroright form input{
+    border: 0;
+    border-bottom: 1px solid gray;
+    padding: 10px;
+    margin: 10px 0;
+}
+.heroright form button{
+    background-color: orange;
+    border: 0;
+    width: 100%;
+    padding: 10px 0;
+    margin-top: 10px;
+}
+
+/* social section */
+.socialLeft{
+    width: 30%;
+}
+.socialLeft p{
+    font-size: 13px;
+}
+.socialRight{
+    width: 60%;
+    text-align: end;
+    margin-left: 8%;
+
+}
+.socialRight i{
+    margin: 0 12px;
+    font-size: 30px;
+
+}
+/* section tabs */
+#tabs{
+    background-color: white;
+    padding: 50px 10%;
+    margin-top: 50px;
+}
+.tabsLeft{
+    width: 15%;
+}
+.tabsLeft button{
+    width: 100%;
+    padding: 35px 0;
+    background-color:#333333;
+    border: 0;
+    color: white;
+    margin-bottom: 1px;
+}
+.tabsLeft button.bg-orange{
+    background-color: #ff8b38;
+}
+.tabsCenter{
+    width: 40%;
+    margin: 0 4%;
+}
+.tabsCenter p{
+    font-size: 11px;
+    margin: 10px 0;
+}
+.tabsCenter h4{
+    font-size: 17px;
+    margin: 10px 0;
+}
+.tabsCenter button{
+    background-color: #ff8b38;
+    padding: 8px 20px;
+    border: 0;
+    color: white;
+}
+.tabsRight{
+    width: 30%;
+
+}
+.tabsRight img{
+    width: 100%;
+    margin-bottom: 60px;
+
+}
+
+/* section list */
+
+#list{
+    padding: 50px 10px;
+    background-color: white;
+    overflow: hidden;
+}
+.listLeft{
+    width: 48%;
+    float: left;
+}
+.listLeft img{
+    width: 100%;
+    margin: 30px 0;
+}
+.listRight{
+    width: 48%;
+    float: right;
+}
+.listRight hr{
+    width: 15%;
+    height: 3px;
+    border: 0;
+    background-color: #ff8b38;
+}
+.listRight p{
+    margin-top: 10px;
+}
+.listRight article{
+    overflow: hidden;
+    margin-top: 15px;
+}
+.listRight article i{
+    float: left;
+    color: orange;
+    border: 1px solid;
+    padding: 10px;
+    border-radius: 50%;
+    margin-top: 5px;
+    
+}
+.listRight article div{
+    float: right;
+    width: 80%;
+}
+.listRight article div p{
+    font-size: 15px;
+    margin-top: 5px;
+}
+.clear{
+    clear: both;
+}
+
+/* section picture */
+
+#picture{
+    padding: 50px 10px;
+    overflow: hidden;
+    background-color:rgba(201, 202, 209, 0.404);
+    padding: 50px 10%;
+    margin-top: 50px;
+}
+.picLeft{
+    width: 48%;
+    float: left;
+    margin: 30px 0;
+}
+.picLeft hr{
+    width: 20%;
+    margin-top: 4px;
+    height: 3px;
+    border: 0;
+    background-color: #ff8b38;
+}
+
+.picLeft article{
+    margin-top: 15px;
+    overflow: hidden;
+}
+.picLeft article p{
+    font-size: 15px;
+    margin-top: 10px;
+}
+.clear{
+    clear: both;
+}
+.picRight{
+    width: 48%;
+    float: right;
+}
+.picRight img{
+    width: 100%;
+    margin: 50px 10px;
+}
+
+/* start awesome section */
+
+#awesome{
+    padding: 50px 10%;
+    text-align: center;
+    background-color: #fdfdfd;
+}
+#awesome hr{
+    width: 15%;
+    margin: 15px auto;
+    height: 3px;
+    border: 0;
+    background-color: #ff8b38;
+}
+#awesome div{
+    overflow: hidden;
+    margin-top: 30px;
+}
+#awesome div article{
+    width: 30%;
+    float: left;
+}
+#awesome div article.center{
+    margin: 0 5%;
+}
+#awesome div article i{
+    color: #ff8b38;
+    padding: 18px 20px;
+    border-radius: 50%;
+    border: 3px solid ;
+    font-size: 20px;
+
+}
+#awesome div article h4{
+    margin: 15px 0;
+}
+#awesome div article p{
+    font-size: 13px;
+}
+
+/*pricing section*/
+
+#pricing{
+    padding: 50px 10%;
+    text-align: center;
+    background-color:rgba(201, 202, 209, 0.404);
+}
+#pricing hr{
+    width: 15%;
+    margin: 15px auto;
+    height: 3px;
+    border: 0;
+    background-color: #ff8b38;
+}
+#pricing div{
+    overflow: hidden;
+    padding-top: 100px;
+}
+#pricing div article{
+    width: 30%;
+    float: left;
+}
+#pricing div article.center{
+    margin: 0 5%;
+    position: relative;
+    bottom: 20px;
+}
+#pricing div article.center h4{
+    background-color: #ff8b38;
+    color: whitesmoke;
+}
+#pricing div article h2 , #pricing div article p{
+    background-color: #1e1e1e;
+    color: whitesmoke;
+    padding: 15px 0;
+}
+#pricing div article h2{
+    border-bottom: 2px solid #dadada;
+}
+#pricing div article p.bot{
+    border-bottom: 4px solid #ff8b38;
+}
+#pricing div article p span.first{
+    font-size: 50px;
+    font-weight: bold;
+}
+#pricing div article p span.last{
+    font-size: 80px;
+    font-weight: bold;
+}
+#pricing div article ul{
+    list-style-type: none;
+    background-color: #fff;
+}
+#pricing div article ul li{
+    padding: 15px 0;
+    border-bottom: 1px solid #cccaca;
+    color: #b6b5b5;
+}
+
+/* reviews section*/
+
+#reviews{
+    background-color:white;
+    display: inline-block;
+    padding: 50px 0;
+    text-align: center;
+    margin-left: 50px;
+}
+#reviews hr{
+    width: 25%;
+    margin: 15px auto;
+    border: 0px;
+    height: 3px;
+    background-color: #ff8b38;
+}
+#reviews div.cust-info {
+    height: 150px;
+    width: 200px;
+    background-color: gainsboro;
+    display: inline-block;
+    position: relative;
+    margin: -250px 25px;
+    border-radius: 15px;
+    text-align: left;
+    padding-left: 5px;
+    padding-top: 5px;
+}
+
+.triangle{
+    border: 25px solid transparent;
+    border-top-color: gainsboro;
+    position: absolute;
+    top: 100%;
+    left: 15px;
+}
+#reviews div.img{
+    position: absolute;
+    margin: 55px 20px;
+
+}
+
+/* design section */
+#design{
+    background-size: 100% 100%;
+    background-image: url(../images/design.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 50px 10%;
+    text-align: center;
+}
+#design div h2{
+    color: white;
+} 
+#design div p{
+    color: white;
+    margin-top: 30px;
+}
+#design div hr{
+    width: 15%;
+    margin: 15px auto;
+    height: 3px;
+    border: 0;
+    background-color: white;
+}
+#design div button{
+    color: white;
+    background-color: transparent;
+    border:2px solid white;
+    width: 130px;
+    height: 30px;
+    margin-top: 50px;
+}
+/*contact section*/
+#contact{
+    text-align: center;
+    padding: 50px 10%;
+    overflow: hidden;
+}
+#contact div.head{
+    text-align: center;
+}
+.head hr{
+    width: 15%;
+    margin: 15px auto;
+    height: 3px;
+    border: 0;
+    background-color: #ff8b38
+}
+#contact div form input{
+    display: block;
+    border: 0;
+    border-bottom: 1px solid gray;
+    padding: 10px;
+    margin: 10px 0;
+}
+.form{
+    float: left;
+    margin-top: 20px;
+}
+.between textarea{
+    border: 0;
+    float: right;
+    margin-top: 20px;
+    border-bottom: 1px solid gray;
+}
+.clear{
+    clear: both;
+}
+
+#contact button{
+    color: white;
+    background-color: #ff8b38;
+    border:2px solid white;
+    width: 100px;
+    height: 40px;
+    margin-top: 50px;
+}
+
+
+#end{
+    background-color: black;
+    text-align: center;
+    color: white;
+}
+#end div i{
+    display: inline-block;
+    color: white;
+    margin: 10px auto;
+    font-size: 25px;
+    padding: 11px;
+}
+#end p{
+    margin: 5px 0;
+}
