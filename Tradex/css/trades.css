@@ -1,0 +1,310 @@
+header{
+    width: 100%;
+}
+nav{
+    padding: 15px 0;
+}
+i, span{
+    margin: 0 10px;
+}
+.carousel-indicators{
+    margin: 0;
+    margin-right:2%;
+    flex-direction: column;
+    align-items: end;
+    bottom: 50%;
+}
+.carousel-indicators [data-bs-target]{
+    height: 8px;
+    width: 8px;
+}
+.carousel-caption{
+    bottom: 300px;
+}
+
+.title h3::before{
+    content: "";
+    width: 80px;
+    height: 2px;
+    background-color: blue;
+    position: absolute;
+    left: -100px;
+    top: 60%;
+}
+.title h3::after{
+    content: "";
+    width: 80px;
+    height: 2px;
+    background-color: blue;
+    position: absolute;
+    right: -100px;
+    top: 60%;
+}
+.title span::before{
+    content: "";
+    width: 50px;
+    height: 3px;
+    background-color: blue;
+    position: absolute;
+    left: -80px;
+    top: 40%;
+}
+.title span::after{
+    content: "";
+    width: 50px;
+    height: 3px;
+    background-color: blue;
+    position: absolute;
+    right: -80px;
+    top: 40%;
+}
+.list-index{
+    z-index: 5;
+}
+.counter{
+    margin: 100px auto;
+}
+.icons i{
+    color: blue;
+    border-radius: 15px;
+}
+.card{
+    border: none;
+}
+.list-group-item{
+    border: none;
+}
+#services{
+    background-image: url(../images/service-bg.jpg);
+    background-size: 100% 100%;
+}
+.parent:hover .child{
+    top: 0;
+}
+.child{
+    top: 100%;
+    transform: all 1a;
+}
+.overlay{
+    background-size: 100% 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+
+}
+.parent h3{
+    color: white;
+}
+.parent i{
+    color: white;
+}
+.title2 h3::before{
+    content: "";
+    width: 80px;
+    height: 2px;
+    background-color: blue;
+    position: absolute;
+    left: -100px;
+    top: 60%;
+}
+.title2 h3::after{
+    content: "";
+    width: 80px;
+    height: 2px;
+    background-color: blue;
+    position: absolute;
+    right: -100px;
+    top: 60%;
+}
+.title2 span::before{
+    content: "";
+    width: 50px;
+    height: 3px;
+    background-color: blue;
+    position: absolute;
+    left: -80px;
+    top: 40%;
+}
+.title2 span::after{
+    content: "";
+    width: 50px;
+    height: 3px;
+    background-color: blue;
+    position: absolute;
+    right: -80px;
+    top: 40%;
+}
+.title2 h3{
+    color: white;
+}
+.title2 p{
+    color: white;
+    line-height: 25px;
+}
+.title p{
+    line-height: 25px;
+    max-width: 800px;
+    margin: 20px auto 60px;
+}
+.parent2:hover .child2{
+    transform: scalex(1);
+}
+.child2{
+    bottom: 5%;
+    left: 5%;
+    transition: all 0.5s;
+    transform: scalex(0);
+}
+.child2 h4 ,i{
+    color: white;
+}
+.child2 p{
+    color: white;
+}
+#picture{
+    margin: 100px auto;
+}
+.parent3{
+    position: relative;
+    overflow: hidden;
+}
+.child3{
+    position: absolute;
+    top: 80%;
+    background: white;
+    transition: all 0.5s;
+}
+.child3 p{
+    color: black;
+}
+.child3 h6{
+    color: blue;
+}
+.parent3:hover .child3{
+    top: 55.5%;
+}
+.parent3:hover .child3 h6{
+    border: 0 !important;
+}
+.child3 i:hover{
+    color: black;
+}
+.blog-img img{
+    transition: all 3s linear;
+    width: 100%;
+}
+.blog-icons{
+    width: 100%;
+    max-width: 45px;
+    display: inline-block;
+    color: #fff;
+    text-align: center;
+    position: relative;
+    background-color: #1a1a1a;
+    padding: 20px 0;
+    transition: all .3s ease;
+}
+.blog-icons i{
+    font-size: 15px;
+    padding: 10px 0;
+    transition: all .3s ease;
+}
+.blog-icons i:hover{
+    text-decoration: none;
+    cursor: pointer;
+}
+.blog-content{
+    margin-left: 20px;
+    position: relative;
+    padding-bottom: 20px;
+    display: inline-block;
+}
+.blog-content h5{
+    line-height: 25px;
+    padding-top: 20px;
+    font-size: 15px;
+}
+.blog-data i{
+    color: black;
+}
+
+.parent4{
+    position: relative;
+    overflow: hidden;
+}
+.child4 {
+    position: absolute;
+    top: 80%;
+    background-color: white;
+    transition:all .5s ;
+
+
+}
+.parent4:hover .child4{
+    top: 35%;
+}
+.parent4:hover .child4 h6{
+    border: 0 !important;
+}
+/* clients word */
+.title-clients {
+    color: black;
+}
+
+.title-clients h3::after{
+    content: "";
+    width: 80px;
+    height: 2px;
+    background-color: blue;
+    position: absolute;
+    right: -100px;
+    top: 60%;
+}
+
+.title-clients .about-clients::after{
+    content: "";
+    width: 50px;
+    height: 3px;
+    background-color: blue;
+    position: absolute;
+    right: -80px;
+    top: 40%;
+}
+#end{
+    background-color: black;
+}
+#end ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: block;
+}
+#end ul li{
+    padding-left: 30px;
+    margin: 10px auto;
+    list-style: none;
+    padding: 0;
+    display: list-item;
+    position: relative;
+    display: flex;
+}
+
+#end h3{
+    color: white;
+    margin: 15px 5px;
+}
+#end p{
+    color: white;
+}
+.form input{
+    border: none;
+    box-shadow: none;
+}
+.form i{
+    color: #1a1a1a;
+}
+.form textarea{
+    margin-top: 30px;
+    border: 0;
+    border-bottom: 1px solid #1a1a1a;
+    box-shadow: none;
+    width: 1190;
+}
